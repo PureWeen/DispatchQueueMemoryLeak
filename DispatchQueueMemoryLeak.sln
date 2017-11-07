@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatchQueueMemoryLeak", "DispatchQueueMemoryLeak\DispatchQueueMemoryLeak.csproj", "{534F9358-F257-4384-A9A4-10F254278688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{534F9358-F257-4384-A9A4-10F254278688}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Debug|iPhone.Build.0 = Debug|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.Release|iPhone.ActiveCfg = Release|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Release|iPhone.Build.0 = Release|iPhone
+		{534F9358-F257-4384-A9A4-10F254278688}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{534F9358-F257-4384-A9A4-10F254278688}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB4F3F2C-C775-44DD-8604-7C9B13265A3D}
+	EndGlobalSection
+EndGlobal
