@@ -58,7 +58,7 @@ namespace DispatchQueueMemoryLeak
                     .Switch()
                     .ToProperty(this, x => x.Tick, scheduler: RxApp.MainThreadScheduler);
 
-
+            //Having this here is what causes the memory leak
             this.WhenAnyValue(x => x.Tick)
                 .ObserveOn(RxApp.MainThreadScheduler)
                 .Subscribe(_ => SomeRandomProperty = $"{System.GC.GetTotalMemory(false)}");
