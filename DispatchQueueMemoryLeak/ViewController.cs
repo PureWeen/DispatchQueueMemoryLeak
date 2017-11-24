@@ -52,6 +52,8 @@ namespace DispatchQueueMemoryLeak
 
         public ViewControllerViewModel()
         {
+           // RxApp.MainThreadScheduler = System.Reactive.Concurrency.XamarinDispatcherScheduler.Current;
+
             _tick =
                 this.WhenAnyValue(x => x.SomeRandomProperty)
                     .Select(_ => Observable.Interval(TimeSpan.FromSeconds(1)).Select(__ => DateTimeOffset.Now))
